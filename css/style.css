@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    text-align: center;
+    /* border:3px solid cornflowerblue; */
+    background-color: rgba(255, 255, 255, 0.795);
+    color: rgb(254, 255, 255);
+    background-color: rgb(152, 201, 244);
+    /* background-image: url('../assets/images/images.png'); */
+    /* background-size: 100% 100%; */
+    /* background-position: center; */
+    
+}
+.mark{
+    font-size: 30px;
+    font-style: italic;
+    font-family: serif;
+    background-color: #c7bebe;
+}
+.social-link{
+    padding-right: 2px;
+}
+.brand-insta{
+    color: #fc2010;
+    font-size: 1.3rem;
+    border: 1px solid rgba(255, 106, 7, 0.849);
+    box-shadow: 16px; 
+    border-radius: 1px ;
+    box-sizing: content-box;
+    transition: color 3s ease-in-out;
+}
+.brand-insta:hover{
+    background-color: rgba(230, 95, 33, 0.411);
+    padding: 2px;
+    border-radius: 10px
+}
+.brand-linked{
+    color: blue;
+    font-size: 1.3rem;
+    border: 1px solid rgba(23, 7, 255, 0.849);
+    box-shadow: 16px; 
+    border-radius: 1px ;
+    box-sizing: content-box;
+    transition: color 3s ease-in-out;
+}
+.brand-linked:hover{
+    background-color: rgba(53, 33, 230, 0.411);
+    padding: 2px;
+    border-radius: 10px
+}
+.brand-whatsapp{
+    color: green;
+    font-size: 1.3rem;
+    border: 1px solid rgb(131, 255, 7);
+    box-shadow: 16px; 
+    border-radius: 1px ;
+    box-sizing: content-box;
+    transition: color 3s ease-in-out;
+}
+.brand-whatsapp:hover{
+    background-color: rgba(30, 255, 0, 0.411);
+    padding: 2px;
+    border-radius: 10px;
+}
+.brand-fb{
+    color: rgb(6, 39, 146);
+    font-size: 1.3rem;
+    border: 1px solid rgb(7, 23, 255);
+    box-shadow: 16px; 
+    border-radius: 1px ;
+    box-sizing: content-box;
+    transition: color 3s ease-in-out;
+}
+.brand-fb:hover{
+    background-color: rgba(10, 26, 117, 0.411);
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+}
+    .navbar{
+        border-top: 3px solid rgb(255, 255, 255);
+        background-color: #333;
+        padding: 5px;
+        /* height: 50px; */
+        margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+}
+ul{
+    list-style: none;
+}
+.navbar .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .navbar-container .navbar-brand a{
+    font-size: 1.8rem;
+    margin-left: 30px;
+    transition: color 3s ease-in-out;
+}
+.navbar .navbar-container .navbar-brand a:hover{
+    color:#fc2010;
+}
+.navbar .navbar-container .navbar-items ul li {
+    font-size: 1.8rem;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 25px;
+    margin-right: 10px;
+}
+.navbar .navbar-container .navbar-items ul li a{
+    font-style: unset;
+    transition: color 1.2 ease-in-out;
+}
+.navbar .navbar-container .navbar-items ul li a:hover{
+    background-color: #fc2010;
+    padding: 5px;
+    border-radius: 10px;
+}
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 10px;
+    border: #fc2010 15px solid;
+}
+.profile-image img{
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 10px solid;
+    border-color: #fc2010; 
+    box-shadow: #333 ;
+    box-sizing: border-box;
+}
+.horizon-1{
+    margin-left: 20rem;
+    width:377px;
+    color: #fc2010;
+}
+.main-info{
+    margin-right: 8rem;
+}
+.my-name{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-right: 8rem;
+    color: rgb(13, 92, 240);
+}
+.dev{
+    margin-right: 9rem;
+    font-style: oblique;
+    font-weight: bolder;
+    color: #fc2010;
+    position: static;
+    font-size: 2rem;
+}
+.horizon-2{
+    width: 100%;
+    color: #fc2010;
+}
+.main-section .main-info .contact-1 , .contact-2{
+    margin-top: 20px;
+    margin-right: 55rem;
+}
+.contact-1 , .contact-2{
+    /* align-items: flex-start; */
+    display: flex;
+    
+}
+.footer .container .footer-container{
+    height: 2rem;
+    width: 100%;
+    
+    /* border: 2px solid #fc2010 ; */
+    position: absolute; 
+    bottom: 0;
+    background-color: cadetblue;
+}
+.footer .container .footer-container .content-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
